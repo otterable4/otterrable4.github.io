@@ -19,13 +19,13 @@ defaultContentLanguage = 'en'
 	
   [[menu.main]]
     identifier = "mainsite"
-    name = "Main site"
+    name = "> Main site"
     url = "https://ermine.de"
     weight = 3
 	
  [[menu.main]]
     identifier = "site2"
-    name = "Little life advice"
+    name = "> Little life advice"
     url = "https://ermine.eu"
     weight = 3	
 
