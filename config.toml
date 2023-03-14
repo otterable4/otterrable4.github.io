@@ -1,0 +1,68 @@
+baseURL = "https://otterable4.github.io/"
+paginate = 9
+theme = 'maverick'
+#-------------------------------
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+     title = "Femboy.at"
+  [languages.de]
+     title = "Ermine.de"
+
+
+
+
+
+
+# Main Menu
+[menu]
+	
+  [[menu.main]]
+    identifier = "mainsite"
+    name = "Main site"
+    url = "https://ermine.de"
+    weight = 3
+	
+ [[menu.main]]
+    identifier = "site2"
+    name = "Little life advice"
+    url = "https://ermine.eu"
+    weight = 3	
+
+
+[params]
+  logo = "/images/ottor2.png" # Yoiu can add own logo. For example "/images/logo.png".
+  description = "Aditu is a stylish and modern dark theme with a clean and unique design."
+
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+
+  # Example of adding a new link to the author section and footer:
+  # [[params.social]]
+  #   icon = "ion-logo-vimeo"
+  #   name = "Vimeo"
+  #   link = "https://vimeo.com"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+  #-------------------------------
+  
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
