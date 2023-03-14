@@ -17,17 +17,18 @@ defaultContentLanguage = 'en'
 # Main Menu
 [menu]
 	
-  [[menu.main]]
-    identifier = "mainsite"
-    name = "> Author site"
-    url = "https://ermine.de"
-    weight = 3
-	
  [[menu.main]]
     identifier = "site2"
     name = "> Little life advice"
     url = "https://ermine.eu"
     weight = 3	
+	
+ [[menu.main]]
+    identifier = "mainsite"
+    name = "> Author site"
+    url = "https://ermine.de"
+    weight = 3
+	
 
 
 [params]
