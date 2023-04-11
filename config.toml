@@ -21,7 +21,8 @@ defaultContentLanguage = 'en'
   logo = "/images/ottor2.png" # Yoiu can add own logo. For example "/images/logo.png".
   description = "Aditu is a stylish and modern dark theme with a clean and unique design."
 
-
+# Google Analytics 4
+googleAnalyticsID = "G-CJN754RWRH"
 
   #-------------------------------
   # Hero Settings
